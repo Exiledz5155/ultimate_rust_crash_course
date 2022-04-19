@@ -1,0 +1,1 @@
+C:\Users\Exiledz\Desktop\Coding\RustCrashCourse\ultimate_rust_crash_course\exercise\hello\target\debug\hello.exe: C:\Users\Exiledz\Desktop\Coding\RustCrashCourse\ultimate_rust_crash_course\exercise\hello\src\lib.rs C:\Users\Exiledz\Desktop\Coding\RustCrashCourse\ultimate_rust_crash_course\exercise\hello\src\main.rs
