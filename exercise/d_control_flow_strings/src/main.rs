@@ -66,6 +66,8 @@ fn count(arg: String) {
     //
     // print!("{} ", arg); // Execute this line 8 times, and then break. `print!` doesn't add a newline.
 
+    let mut count = 0;
+
     'firstloop: loop {
         loop {
             print!("{} ", arg);
@@ -91,6 +93,17 @@ fn count(arg: String) {
                     }
                 }
             }
+        }
+    }
+
+    println!(); // This will output just a newline at the end for cleanliness.
+    println!();
+
+    loop {
+        print!("{} ", arg);
+        count += 1;
+        if count > 7 {
+            break
         }
     }
 
