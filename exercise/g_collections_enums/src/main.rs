@@ -67,7 +67,9 @@ fn main() {
 
     let mut total = 0;
     // 3. Finally, loop through each shot in shots and add its points to total
-
+    for shot in shots {
+        total += shot.points(); // refer to impl of Shot
+    }
     println!("Final point total is: {}", total);
 }
 
